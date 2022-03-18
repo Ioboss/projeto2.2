@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 img {
@@ -102,4 +103,33 @@ body {
 .proj-img{
   max-width: 448px;
   height: 300px;
+}
+
+.animation{
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: escrever normal 3s steps(40) both;
+}
+
+.animation2{
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: escrever normal 3s steps(40) both;
+  animation-delay: 3s;
+}
+
+.animation3{
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: escrever normal 3s steps(40) both;
+  animation-delay: 6s;
+}
+
+@keyframes escrever{
+  100%{
+    max-width: 100%;
+  }
 }
