@@ -44,10 +44,6 @@ body {
   margin: 0 auto 2rem auto;
 }
 
-.profile span {
-  font-size: 20px;
-}
-
 .profile p {
   font-size: 18px;
   margin-top: 2rem;
@@ -80,39 +76,39 @@ body {
   color: #606060;
 }
 
-.portifolio li + li{
+.portifolio li + li {
   margin-top: 2rem;
 }
 
-.portifolio img{
+.portifolio img {
   border-radius: 10px;
 }
 
-.portifolio h2{
+.portifolio h2 {
   font-weight: normal;
   margin-bottom: 1rem;
 }
 
-.copyright{
+.copyright {
   font-size: 18px;
   color: white;
-  text-shadow: 2px 2px 16px black ;
+  text-shadow: 2px 2px 16px black;
   padding: 100px;
 }
 
-.proj-img{
+.proj-img {
   max-width: 448px;
   height: 300px;
 }
 
-.animation{
+.animation {
   max-width: 0;
   white-space: nowrap;
   overflow: hidden;
   animation: escrever normal 3s steps(40) both;
 }
 
-.animation2{
+.animation2 {
   max-width: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -120,7 +116,7 @@ body {
   animation-delay: 3s;
 }
 
-.animation3{
+.animation3 {
   max-width: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -128,8 +124,8 @@ body {
   animation-delay: 6s;
 }
 
-@keyframes escrever{
-  100%{
+@keyframes escrever {
+  100% {
     max-width: 100%;
   }
 }
